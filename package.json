@@ -76,7 +76,7 @@
     ],
     "repositoryPrefix": "<%- repo %>/blob/<%- version %>/<%- commandPath %>",
     "hooks": {
-      "prerun": "./src/hooks/prerun/prerun-all.js",
+      "__prerun": "./src/hooks/prerun/prerun-all.js",
       "init": [
         "./src/hooks/init/migrate-jwt-context-hook.js",
         "./src/hooks/init/load-permission-info.js"
